@@ -52,5 +52,5 @@ wb.sheets['Bank Amount Outstanding']["A1"].options(index=False).value = df2
 wb.sheets['Claim Amount Outstanding']["A1"].options(index=False).value = df3
 
 # Save workbook
-wb.save(rf"{path}\({formatted_date}) CY data and figures.xlsx")
+wb.save(rf"{path}\({formatted_date}) data and figures.xlsx")
 wb.close()
